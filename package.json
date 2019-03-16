@@ -1,0 +1,49 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "runner run",
+    "runner": "runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarwich/resume.git"
+  },
+  "keywords": [],
+  "author": "Samuel Dillow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarwich/resume/issues"
+  },
+  "homepage": "https://github.com/tarwich/resume#readme",
+  "description": "",
+  "devDependencies": {
+    "@tarwich/runner": "1.1.0",
+    "@types/node": "11.11.3",
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "eslint-config-tarwich": "github:tarwich/eslint-config-tarwich",
+    "mobx": "5.9.0",
+    "mobx-react": "5.4.3",
+    "parcel-bundler": "1.12.2",
+    "parcel-plugin-prettier": "github:tarwich/parcel-plugin-prettier",
+    "prettier": "1.16.4",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "express": "4.16.4"
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "runner": {
+    "server": {
+      "entry": "src/server/index.ts"
+    }
+  }
+}
