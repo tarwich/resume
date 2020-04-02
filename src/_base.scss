@@ -1,0 +1,6 @@
+$blue: hsl(220, 50%, 50%);
+$white: hsl(hue($blue), 50%, 99%);
+$gray: hsl(hue($blue), 10%, 50%);
+
+$blue-white: mix($blue, $white, 10%);
+$blue-gray: mix($blue, $white, 50%);
