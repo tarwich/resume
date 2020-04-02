@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel serve src/index.html"
+    "dev": "parcel serve src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
     "@types/node": "13.9.8",
     "@types/react": "16.9.29",
     "@types/react-dom": "16.9.5",
+    "caprover": "^2.1.1",
+    "express": "^4.17.1",
     "parcel-bundler": "1.12.4",
     "parcel-plugin-prettier": "github:tarwich/parcel-plugin-prettier",
     "prettier": "2.0.2",
